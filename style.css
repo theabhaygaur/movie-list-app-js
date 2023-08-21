@@ -68,3 +68,41 @@ input {
   text-align: center;
   background-color: #212121;
 }
+
+@media screen and (max-width: 600px) {
+  .topnav {
+    width: 100%;
+  }
+
+  .topnav a {
+    padding: 10px;
+  }
+
+  .search-container {
+    float: none;
+    margin-top: 10px;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  input {
+    font-size: 14px;
+  }
+
+  .column {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .thumbnail {
+    width: 100%;
+    height: auto;
+  }
+
+  .card {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
